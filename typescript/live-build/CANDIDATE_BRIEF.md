@@ -4,8 +4,16 @@ District staff need to **find students** across schools in TEX. You will extend 
 
 ## Starting point
 
-- Run `npm install` then `npm run dev` in this folder (starts the mock API and the Vite app).
-- Open the URL shown in the terminal (default `http://127.0.0.1:4322`).
+From the root of the `tex-coding-exercise` repo:
+
+```bash
+cd typescript/live-build
+npm install
+npm run dev
+```
+
+This starts the mock API (port 3456) and the app. Open http://127.0.0.1:4322 in your browser.
+
 - Code lives in `src/components/StudentLookup.tsx` and `src/api/students.ts`.
 
 ## Initial requirements (first ~10 minutes)

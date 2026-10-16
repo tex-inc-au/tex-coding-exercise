@@ -4,11 +4,15 @@ A teammate wrote a small C++17 module for **TEX Schools** that summarises a clas
 
 ## Your task
 
-1. Build and run it (from this folder):
+1. Build and run it. From the root of the `tex-coding-exercise` repo:
 
    ```bash
-   g++ -std=c++17 -Wall -g src/*.cpp -o roster_demo && ./roster_demo
+   cd cpp/code-review
+   g++ -std=c++17 -Wall -g src/*.cpp -o roster_demo
+   ./roster_demo
    ```
+
+   Run it directly in a terminal so you see all the output.
 
    (or `cmake -S . -B build && cmake --build build && ./build/roster_demo`)
 2. Read `src/roster.h`, `src/roster.cpp`, `src/main.cpp`. Compare the output with what you would expect from the data in `main.cpp`.

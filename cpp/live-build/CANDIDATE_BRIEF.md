@@ -9,9 +9,10 @@ Build a small command-line **student lookup** for TEX Schools in C++17. Requirem
 - `src/main.cpp`: a CLI that reads a CSV file and calls your functions.
 - `data/students.csv`: sample data.
 
-Build and run (from this folder):
+Build and run. From the root of the `tex-coding-exercise` repo:
 
 ```bash
+cd cpp/live-build
 g++ -std=c++17 -Wall -Wextra -g src/*.cpp -o student_lookup
 ./student_lookup data/students.csv search an
 ./student_lookup data/students.csv rank
