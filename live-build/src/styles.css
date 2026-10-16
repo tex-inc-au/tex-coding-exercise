@@ -1,0 +1,131 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1a1a2e;
+  background: #f4f6fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.app h1 {
+  font-size: 1.35rem;
+  margin: 0 0 0.25rem;
+}
+
+.subtitle {
+  color: #5c6370;
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #dde1e8;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  color: #444;
+  gap: 0.25rem;
+}
+
+.controls input[type="search"] {
+  min-width: 220px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #c5cad3;
+  border-radius: 6px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.student-table th,
+.student-table td {
+  text-align: left;
+  padding: 0.5rem 0.4rem;
+  border-bottom: 1px solid #eef0f4;
+}
+
+.student-table th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #6b7280;
+}
+
+.status {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.status.error {
+  color: #b71c1c;
+}
+
+.retry-btn {
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #c5cad3;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.pagination button {
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #c5cad3;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

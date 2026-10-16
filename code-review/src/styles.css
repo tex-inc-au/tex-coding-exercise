@@ -1,0 +1,114 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1a1a2e;
+  background: #f4f6fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.app h1 {
+  font-size: 1.35rem;
+  margin: 0 0 0.25rem;
+}
+
+.subtitle {
+  color: #5c6370;
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
+}
+
+.toolbar {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.toolbar label {
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.toolbar input[type="search"] {
+  min-width: 200px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #c5cad3;
+  border-radius: 6px;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #dde1e8;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.student-list li {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eef0f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.student-list li:last-child {
+  border-bottom: none;
+}
+
+.student-name {
+  font-weight: 600;
+}
+
+.student-meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge.inactive {
+  background: #fce8e8;
+  color: #c62828;
+}
+
+.status-line {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.error {
+  color: #b71c1c;
+  background: #ffebee;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+}
+
+.note {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #888;
+}
