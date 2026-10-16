@@ -4,7 +4,7 @@ You are reviewing a small React screen that a teammate shipped for **TEX Schools
 
 ## Your task
 
-1. Run the app (`npm run review` from the repo root, or `npm run dev` in this folder).
+1. Run the app (`npm install` then `npm run dev` in this folder).
 2. Click around: search, toggle **Active students only**, watch the list and the browser console.
 3. Talk through what you notice — bugs, risks, missing UX, and what you would change before merge.
 4. You do **not** need to fix everything; prioritize what matters most for teachers and student data.
