@@ -18,7 +18,7 @@ Requires Node (see `.nvmrc`). From the exercise folder run `npm install` then `n
 
 | Exercise | Folder |
 |----------|--------|
-| Code review | `code-review/` |
-| Live build | `live-build/` |
+| Code review | `typescript/code-review/` |
+| Live build | `typescript/live-build/` |
 
 Read each exercise's `CANDIDATE_BRIEF.md` before you start.
